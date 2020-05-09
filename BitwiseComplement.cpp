@@ -4,6 +4,8 @@ public:
     {
         int i=0;
         int x=0;
+        if(num==0)
+            return 1;
         while(num)
         {
             if((num&1)==0)
